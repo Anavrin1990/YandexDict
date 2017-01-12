@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A23EAD31E24CD5500BF1B61 /* LangsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A23EAD21E24CD5500BF1B61 /* LangsTableViewController.swift */; };
+		0A23EAD51E24E2BD00BF1B61 /* LangsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A23EAD41E24E2BD00BF1B61 /* LangsTableViewCell.swift */; };
+		0A5F25011E2765790011309E /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F25001E2765790011309E /* DetailTableViewController.swift */; };
+		0A76FC411E24B18300DE5C6A /* YandexSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A76FC401E24B18300DE5C6A /* YandexSession.swift */; };
 		0AD258911E2372FE00B749BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD258901E2372FE00B749BF /* AppDelegate.swift */; };
 		0AD258931E2372FF00B749BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD258921E2372FF00B749BF /* ViewController.swift */; };
 		0AD258961E23730000B749BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD258941E23730000B749BF /* Main.storyboard */; };
 		0AD258981E23730300B749BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD258971E23730300B749BF /* Assets.xcassets */; };
 		0AD2589B1E23730300B749BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD258991E23730300B749BF /* LaunchScreen.storyboard */; };
+		0AD258A31E23B99A00B749BF /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD258A21E23B99A00B749BF /* MainTableViewCell.swift */; };
+		8C39CE4599E2AF0AF3E62998 /* Pods_YandexDict.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D201C62211F3F1FE6EAF07E /* Pods_YandexDict.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A23EAD21E24CD5500BF1B61 /* LangsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LangsTableViewController.swift; sourceTree = "<group>"; };
+		0A23EAD41E24E2BD00BF1B61 /* LangsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LangsTableViewCell.swift; sourceTree = "<group>"; };
+		0A5F25001E2765790011309E /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		0A76FC401E24B18300DE5C6A /* YandexSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YandexSession.swift; sourceTree = "<group>"; };
 		0AD2588D1E2372FE00B749BF /* YandexDict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YandexDict.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD258901E2372FE00B749BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AD258921E2372FF00B749BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		0AD258971E23730300B749BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AD2589A1E23730300B749BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AD2589C1E23730300B749BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD258A21E23B99A00B749BF /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		226F5D16F009B903D4544273 /* Pods-YandexDict.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexDict.release.xcconfig"; path = "Pods/Target Support Files/Pods-YandexDict/Pods-YandexDict.release.xcconfig"; sourceTree = "<group>"; };
+		7D201C62211F3F1FE6EAF07E /* Pods_YandexDict.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YandexDict.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA33D52C4616E58E9F2FC6B /* Pods-YandexDict.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YandexDict.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YandexDict/Pods-YandexDict.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C39CE4599E2AF0AF3E62998 /* Pods_YandexDict.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				0AD2588F1E2372FE00B749BF /* YandexDict */,
 				0AD2588E1E2372FE00B749BF /* Products */,
+				6C7BE117D25F1C87ED95456C /* Pods */,
+				0D79D1B8F6344FD5A97D2E5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +73,34 @@
 			children = (
 				0AD258901E2372FE00B749BF /* AppDelegate.swift */,
 				0AD258921E2372FF00B749BF /* ViewController.swift */,
+				0A76FC401E24B18300DE5C6A /* YandexSession.swift */,
+				0A23EAD21E24CD5500BF1B61 /* LangsTableViewController.swift */,
+				0A23EAD41E24E2BD00BF1B61 /* LangsTableViewCell.swift */,
 				0AD258941E23730000B749BF /* Main.storyboard */,
+				0A5F25001E2765790011309E /* DetailTableViewController.swift */,
+				0AD258A21E23B99A00B749BF /* MainTableViewCell.swift */,
 				0AD258971E23730300B749BF /* Assets.xcassets */,
 				0AD258991E23730300B749BF /* LaunchScreen.storyboard */,
 				0AD2589C1E23730300B749BF /* Info.plist */,
 			);
 			path = YandexDict;
+			sourceTree = "<group>";
+		};
+		0D79D1B8F6344FD5A97D2E5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D201C62211F3F1FE6EAF07E /* Pods_YandexDict.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C7BE117D25F1C87ED95456C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDA33D52C4616E58E9F2FC6B /* Pods-YandexDict.debug.xcconfig */,
+				226F5D16F009B903D4544273 /* Pods-YandexDict.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AD2589F1E23730300B749BF /* Build configuration list for PBXNativeTarget "YandexDict" */;
 			buildPhases = (
+				23CA7A4D7ADFB4CA6746F9A5 /* [CP] Check Pods Manifest.lock */,
 				0AD258891E2372FE00B749BF /* Sources */,
 				0AD2588A1E2372FE00B749BF /* Frameworks */,
 				0AD2588B1E2372FE00B749BF /* Resources */,
+				80F94456F25E8A1D530EBAD5 /* [CP] Embed Pods Frameworks */,
+				E3208D570ECA2A1433BFE574 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +174,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23CA7A4D7ADFB4CA6746F9A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		80F94456F25E8A1D530EBAD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexDict/Pods-YandexDict-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3208D570ECA2A1433BFE574 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YandexDict/Pods-YandexDict-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0AD258891E2372FE00B749BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5F25011E2765790011309E /* DetailTableViewController.swift in Sources */,
 				0AD258931E2372FF00B749BF /* ViewController.swift in Sources */,
+				0A23EAD51E24E2BD00BF1B61 /* LangsTableViewCell.swift in Sources */,
+				0A76FC411E24B18300DE5C6A /* YandexSession.swift in Sources */,
+				0AD258A31E23B99A00B749BF /* MainTableViewCell.swift in Sources */,
+				0A23EAD31E24CD5500BF1B61 /* LangsTableViewController.swift in Sources */,
 				0AD258911E2372FE00B749BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +354,9 @@
 		};
 		0AD258A01E23730300B749BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA33D52C4616E58E9F2FC6B /* Pods-YandexDict.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2XB4ND3L45;
 				INFOPLIST_FILE = YandexDict/Info.plist;
@@ -272,7 +369,9 @@
 		};
 		0AD258A11E23730300B749BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 226F5D16F009B903D4544273 /* Pods-YandexDict.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2XB4ND3L45;
 				INFOPLIST_FILE = YandexDict/Info.plist;
@@ -302,6 +401,7 @@
 				0AD258A11E23730300B749BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
